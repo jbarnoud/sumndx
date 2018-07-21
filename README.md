@@ -1,6 +1,8 @@
 SUMNDX -- Quick summary of a Gromacs index file
 ===============================================
 
+[![PyPI version](https://badge.fury.io/py/sumndx.svg)](https://badge.fury.io/py/sumndx)
+
 Given a Gromacs index file, SUMNDX displays the name and size of the groups.
 The program takes the path of an index file as an argument. If no argument is
 provided, then the file is read from the standard input.
@@ -32,9 +34,13 @@ Instalation
 
 SUMNDX does not require to be installed: once the `sumndx` script is
 downloaded, t can be executed directly. However, SUMNDX can be installed using
-`pip`.
+`pip`:
 
-Installing SUMNDX from github using `pip`:
+```
+pip install sumndx
+```
+
+It is possible to install SUMNDX from github using `pip`:
 
 ```
 pip install git+https://github.com/jbarnoud/sumndx.git
