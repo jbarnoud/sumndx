@@ -1,3 +1,10 @@
+language: python
+  python:
+    - "3.6"
+install:
+    - pip install .
+script:
+    - echo OK
 deploy:
   provider: pypi
   user: jbarnoud
