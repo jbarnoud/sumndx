@@ -40,3 +40,4 @@ Installing SUMNDX from github using `pip`:
 pip install git+https://github.com/jbarnoud/sumndx.git
 ```
 
+[![Build Status](https://travis-ci.org/jbarnoud/sumndx.svg?branch=master)](https://travis-ci.org/jbarnoud/sumndx)
