@@ -29,8 +29,8 @@ Example output
 6	W_WF	43614
 ```
 
-Instalation
------------
+Installation
+------------
 
 SUMNDX does not require to be installed: once the `sumndx` script is
 downloaded, t can be executed directly. However, SUMNDX can be installed using
