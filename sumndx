@@ -24,6 +24,9 @@ def read_ndx(infile):
     indices = []
     current_group = None
     for line in infile:
+        comment_idx = line.find(';')
+        if comment_idx >= 0:
+            line = line[:comment_idx]
         if "[" in line:
             current_group = line
             current_group = current_group.replace("[", "")
