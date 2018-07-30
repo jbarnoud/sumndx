@@ -2,9 +2,10 @@ language: python
 python:
     - "3.6"
 install:
+    - pip install pytest
     - pip install .
 script:
-    - echo OK
+    - cd tests && pytest
 deploy:
   provider: pypi
   user: jbarnoud
