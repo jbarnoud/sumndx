@@ -5,7 +5,7 @@ install:
     - pip install pytest
     - pip install .
 script:
-    - cd tests && pytest
+    - cd tests && pytest && cd ..
 before_deploy:
     - git clean -f -d
 deploy:
