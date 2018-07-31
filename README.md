@@ -33,7 +33,7 @@ Installation
 ------------
 
 SUMNDX does not require to be installed: once the `sumndx` script is
-downloaded, t can be executed directly. However, SUMNDX can be installed using
+downloaded, it can be executed directly. However, SUMNDX can be installed using
 `pip`:
 
 ```
